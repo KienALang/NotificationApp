@@ -1,0 +1,173 @@
+{
+  "Statuses":[
+    {
+      "statusId":1,
+      "statusName":"Chưa xem"
+    },
+    {
+      "statusId":2,
+      "statusName":"Đã xem"
+    },
+    {
+      "statusId":3,
+      "statusName":"Chưa trả"
+    },
+    {
+      "statusId":4,
+      "statusName":"Đã trả"
+    }
+  ],
+  "NotificationCategories": [
+  {
+    "categoryId":1,
+    "categoryName":"Ký túc xá"
+  },
+  {
+    "categoryId":2,
+    "categoryName":"Phòng công tác sinh viên"
+  },
+  {
+    "categoryId":3,
+    "categoryName":"Trang đào tạo"
+  },
+    {
+      "categoryId":4,
+      "categoryName":"Lịch học"
+    }
+  ],
+
+  "Notifications":[
+    {
+      "notificationId":1,
+      "categoryId":"1",
+      "title":"Tiền điện nước tháng 5",
+      "content":"50 000đ",
+      "createDate":"2018/05/10",
+      "statusId": 2
+    },
+    {
+      "notificationId":2,
+      "categoryId":"1",
+      "title":"Đăng ký phòng",
+      "content":"Từ 5h, 23/1/2018 đến 23h, 30/3/2018",
+      "createDate":"2018/04/10",
+      "statusId": 1
+    }
+  ],
+  "Bills":[
+    {
+      "billId": 1,
+      "createDate":"2018/02/10",
+      "price":258700,
+      "statusId": 1
+    },
+    {
+      "billId": 2,
+      "createDate":"2018/03/10",
+      "price":258700,
+      "statusId": 1
+    },
+    {
+      "billId": 3,
+      "createDate":"2018/04/10",
+      "price":258700,
+      "statusId": 1
+    }
+  ],
+  "Contributions":[
+    {
+      "contributionId":1,
+      "userId":1,
+      "price":50000,
+      "content":"Mua nước",
+      "createDate":"2018/01/02"
+    },
+    {
+      "contributionId":2,
+      "userId":2,
+      "price":50000,
+      "content":"Mua Omô",
+      "createDate":"2018/01/04"
+    },
+    {
+      "contributionId":3,
+      "userId":3,
+      "price":52000,
+      "content":"Mua Chổi",
+      "createDate":"2018/01/06"
+    }
+  ],
+  "Payments":[
+    {"int paymentId, int userId, int billId, int price, String content, int statusId":""}
+  ],
+  "Rooms":[
+    {
+      "int roomId, String roomName, int buildingBlockId":""
+    }
+  ],
+  "BuildingBlocks":[
+    {
+      "int buildingBlockId, String buildingName, int buildingCategoryId":""
+    }
+  ],
+  "BuildingCategories":[
+    {
+      "int buildingCategoryId, String categoryName":""
+    }
+  ],
+  "Roles":[
+    {
+      "int roleId, String roleName":""
+    }
+  ],
+  "Users":[
+    {
+      "int userId, int roleId, String code, String password, String fullname, String phone, String className, int roomId":""
+    }
+  ],
+  "ClassCodes":[
+    {
+      "int classCodeId, String code":""
+    }
+  ],
+  "Subjects":[
+    {
+      "int subjectId, String subjectName, float numberofCredit":""
+    }
+  ],
+  "DaysOfWeek":[
+    {
+      "int dayofWeekId, String dayofWeekName":""
+    }
+  ],
+  "SchoolYears":[
+    {
+      "int schoolYearId, int startYear, int endYear":""
+    }
+  ],
+  "SchoolYearSchedules":[
+    {
+      "scheduleId startWeekId endWeekId, String content":""
+    }
+  ],
+  "Weeks":[
+    {
+      "weekId weekName startDate endDate":""
+    }
+  ],
+  "PeriodTimes":[
+    {
+      "periodId startTime endTime":""
+    }
+  ],
+  "Teachers":[
+    {
+      "teacherId fullname phone email":""
+    }
+  ],
+  "ClassSchedules":[
+    {
+      "classCodeId subjectId teacherId dayofWeekId periodId startWeekId endWeekId roomId":""
+    }
+  ]
+}

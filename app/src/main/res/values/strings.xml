@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyDUT</string>
+    <string name="title_activity_left__menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Đăng nhập</string>
+
+    <!-- Strings related to login -->
+    <string name="new_student">Người sử dụng mới?</string>
+    <string name="register">Đăng ký</string>
+    <string name="cancel">Hủy</string>
+    <string name="student_name">Họ và tên</string>
+    <string name="prompt_student_code">Mã sinh viên</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="class_name">Tên lớp</string>
+    <string name="study_group">Nhóm học phần</string>
+    <string name="living_place">Nơi ở</string>
+    <string name="dormitory">Ký túc xá</string>
+    <string name="motel_room">Trọ</string>
+    <string name="confirm_location">Bạn ở đâu?</string>
+    <string name="my_home">Nhà của tôi</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="error_invalid_student_code">Mã sinh viên chưa chính xác</string>
+    <string name="error_invalid_password">Mật khẩu quá ngắn</string>
+    <string name="error_incorrect_password">Mật khẩu không đúng</string>
+    <string name="error_field_required">Trường này là bắt buộc</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
